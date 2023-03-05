@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Ubuntu", sans-serif;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin:0;
+}
+
+.bg{
+    background: url("https://images.theconversation.com/files/223749/original/file-20180619-126537-5l632j.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop")
+    no-repeat center center/cover;
+    position:absolute;
+    top:-30px;
+    left:-30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index:-1;
+    filter:blur(30px);
+}
+
+.loading-text{
+    font-size:50px;
+    color: #fff;
+}
